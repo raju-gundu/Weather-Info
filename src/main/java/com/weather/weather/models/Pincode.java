@@ -13,4 +13,13 @@ public class Pincode extends BaseModel{
     private double longitude;
 
 
+    public Pincode(long pincode, double latitude, double longitude) {
+        this.pincode = pincode;
+        this.latitude = latitude;
+        this.longitude = longitude;
+    }
+
+    public Pincode() {
+
+    }
 }
